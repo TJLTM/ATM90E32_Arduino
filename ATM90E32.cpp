@@ -444,7 +444,7 @@ void ATM90E32::begin(int pin, unsigned short lineFreq, unsigned short pgagain, u
   /* Enable SPI */
   SPI.begin();
   
-  Serial.println("Connecting to ATM90E32");
+  //Serial.println("Connecting to ATM90E32");
 #if defined(ENERGIA)
   SPI.setBitOrder(MSBFIRST);
   SPI.setDataMode(SPI_MODE0);
